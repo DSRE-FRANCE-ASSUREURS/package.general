@@ -1,0 +1,23 @@
+Package: package.general
+Title: Fonctions d'intérêt collectif pour FA
+Version: 0.0.0.9000
+Authors@R: 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
+Description: Différentes fonctions utiles de manipulation de données, de création de cartes, etc...
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    dplyr,
+    htmltools,
+    leaflet,
+    magrittr,
+    rlang,
+    sf,
+    stringr,
+    viridis
+Depends: 
+    R (>= 3.5)
+LazyData: true
